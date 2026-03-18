@@ -30,9 +30,10 @@ This repository contains selected projects in quantitative finance, time series 
 
 ## 📌 Project Overview
 
-| **Project** | **Description** | **Methods** | **Tech** |
-|------------|----------------|-------------|----------|
-| **Banking System & CD Pricing Engine** | Built a structured banking system in Python with a focus on realistic Certificate of Deposit (CD) modeling. The system incorporates term-structure-based pricing (tenor in days), path-dependent interest accrual, tax-aware return calculations, and early-exit penalties constrained to accrued yield. Designed as a foundational fixed-income cash flow engine applicable to deposit products and short-duration instruments. | - OOP system design<br>- Fixed-income cash flow modeling<br>- Day-count convention (Actual/365 approximation)<br>- Path-dependent payoff structure (early break vs maturity)<br>- Penalty modeling (capped, yield-based)<br>- Post-tax return modeling<br>- Constraint-based system design<br>- Lifecycle/state modeling of financial contracts | - Python<br>- datetime<br>- File-based logging<br>- Exception-driven validation<br>- Financial modeling logic |
+| **Project**                    | **Description**                                                                                                                                                             | **Methods**                                                                                                                                                                                      | **Tech**                                                    |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| **Banking System & CD Engine** | Python-based banking system with Certificate of Deposit (CD) modeling, including interest accrual, early withdrawal penalties, tax-adjusted returns, and rollover behavior. | - OOP design<br>- Fixed-income cash flow modeling<br>- Day-count convention (Actual/365)<br>- Path-dependent valuation (break vs maturity)<br>- Constraint handling (balances, account registry) | - Python<br>- datetime<br>- File I/O<br>- Custom exceptions |
+
 
 
 ---
